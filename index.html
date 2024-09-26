@@ -8,46 +8,170 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="Cantina Chichilo">
-        </div>
         <nav>
             <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#historia">Historial</a></li>
+                <li>
+                    <div class="logo">
+                        <p>Chichilo</p>
+                        <p>Desde 1956</p>
+                    </div>
+                </li>
+                <li><a href="#welcome">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
                 <li><a href="#menu">Menú</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li class="btn-reservas"><a href="#reservation">Reservas</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <h1>Bienvenidos a Cantina Chichilo</h1>
-            <p>Disfruta de la mejor comida casera desde 1956.</p>
+        <section id="welcome">
+            <h3>Bienvenidos</h3>
+            <h1>Chichilo</h1>
+            <p>La mejor comida casera desde 1956.</p>
         </section>
+
         <section id="menu">
+            <h1>Menú</h1>
             <div class="row">
-                <div class="column">
-                  <h2>Column</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                <div class="col-6">
+                    <h2>Platos Principales</h2>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Mondongo a la Italiana</h3>
+                            <p class="price">$20.000</p>
+                        </div>
+                        <div class="description">Mondongo en tiras, cebolla, tomate, ají, ajo, zanahorias, arvejas.</div>
+                    </article>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Rabas a la Calabresa</h3>
+                            <p class="price">$18.000</p>
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </article>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Fusiles con Brocoli, Anchoas, Garbanzos y Hongos</h3>
+                            <p class="price">$21.000</p>
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </article>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Caracoles a la Bordaleza</h3>
+                            <p class="price">$21.000</p>
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </article>
                 </div>
-                
-                <div class="column">
-                  <h2>Column</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                <div class="col-6 col-img-1">
+                    <img src="img/menu-1.png" alt="" width="100%">
                 </div>
-              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-img-2">
+                    <img src="img/menu-2.png" alt="" width="100%">
+                </div>
+                <div class="col-6">
+                  <h2>Postres</h2>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Tiramisú Calabres</h3>
+                            <p class="price">$21.000</p>
+                        </div>
+                        <div class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </article>
+                    <article class="item">
+                        <div class="item-title">
+                            <p>Postre Chicholina</h3>
+                            <p class="price">$21.000</p>
+                        </div>
+                        <div class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</div>
+                    </article>
+                </div>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Dirección: Calle Camarones 1901, Buenos Aires</p>
-            <p>Teléfono: 011 4581-1984</p>
-            <p>Email: chichilo3554@hotmail.com</p>
+        <section id="historia" class="historia">
+            <h1>Historia</h1>
+            <p>Cantina Chichilo de Buenos Aires desde hace 65 años al servicio del buen comer, atendido por sus dueños en el barrio La Paternal</p>
+            <p>Elegida por la producción de POL-KA para la apertura de la novela <em>"Ilusiones"</em> y el <em>"El Sodero de mi Vida"</em> y el lugar preferido de <b>Diego Maradona</b>.</p>
+            <div class="container">
+                <div class="grid">
+                    <div class="item-1">
+                        <img src="img/hist-1.png" alt="Image 1" class="gallery_item">
+                    </div>
+                    <div class="item-2">
+                        <img src="img/hist-2.png" alt="Image 2" class="gallery_item">
+                    </div>
+                    <div class="item-3">
+                        <img src="img/hist-3.png" alt="Image 3" class="gallery_item">
+                    </div>
+                    <div class="item-4">
+                        <img src="img/hist-4.png" alt="Image 4" class="gallery_item">
+                    </div>
+                    <div class="item-5">
+                        <img src="img/hist-5.png" alt="Image 5" class="gallery_item">
+                    </div>
+                    <div class="item-6">
+                        <img src="img/hist-6.png" alt="Image 6" class="gallery_item">
+                    </div>
+                    <div class="item-7">
+                        <img src="img/hist-7.png" alt="Image 7" class="gallery_item">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reservations">
+            <div class="reservation-info">
+                <h2>Reservas</h2>
+                <p>Llamanos al</p>
+                <div class="phone">(+54 11)  4584-1263</div>
+                <p>ó escribinos a</p> 
+                <div class="mail"><a href="mailto:cantinachichilo@cantinachichilo.com.ar">cantinachichilo@cantinachichilo.com.ar</a></div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>© 2024 Cantina Chichilo. Todos los derechos reservados.</p>
-        <p>Sitio desarrollado como práctica para la materia de Diseño y Desarrollo Web.</p>
+        <div class="information row">
+            <div class="logo-container col-3">
+                <div class="logo">
+                    <p>Chichilo</p>
+                    <p>Desde 1956</p>
+                </div>
+            </div>
+            <div class="location col-3">
+                <h2>Dirección</h2>
+                <p>Camarones 1901, La Paternal</p>
+                <p>Ciudad de Buenos Aires - Argentina</p>
+                <a class="mapa" href="https://maps.app.goo.gl/CLqHvBcDjqhyqMR27" target="_blank"><img src="img/mapa.png" alt="mapa"></a>
+            </div>
+            <div class="last-col col-3">
+                <div class="reservations">
+                    <h2>Reservas</h2>
+                    <p><em>Teléfono</em>: +5411 4584-1263 / 4581-1984</p>
+                    <p><em>Mail</em>: <a href="mailto:cantinachichilo@cantinachichilo.com.ar">cantinachichilo@cantinachichilo.com.ar</a></p>
+                </div>
+                <div class="opening-hours">
+                    <h2>Horarios de Apertura</h2>
+                    <p>JUE a SÁB de 20.30 a 00hs</p>
+                    <p>SÁB Y DOM de 12.30 a 14.20hs</p>
+                    <div class="social-media">
+                        <h5>SEGUINOS</h5>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"></a><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"></a><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"></a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="copyright">
+                <p>© 2024 Todos los derechos reservados.</p>
+                <p>Sitio desarrollado como práctica para la materia de Diseño y Desarrollo Web.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
