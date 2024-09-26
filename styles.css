@@ -34,7 +34,7 @@ a { color: #f8f9fa; letter-spacing: .04em; text-decoration: none;}
 .logo p:nth-child(2) { letter-spacing: .35em; font-size: .5em; position: relative;  top:-.4em; }
 
 /* HEADER */
-header { display: flex; flex-direction: row; background-color: #991c1c;}
+header { background-color: #991c1c;}
 header .logo { color: #fff; padding-right: 27em; }
 nav {
     position: fixed; /* Fija el menú en la parte superior */
@@ -42,18 +42,19 @@ nav {
     width: 100%;
     z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
     background-color: #991c1c;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4em;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: .2em 2em;
     display: flex; /* Posiciona los elementos de la lista de manera horizontal */
-    justify-content: center;
 }
-nav ul li {
-    margin: 0;
-    padding: 0;
-}
+
 nav ul li a {
     display: block;
     color: white;
